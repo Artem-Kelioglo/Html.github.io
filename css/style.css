@@ -1,0 +1,487 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+  width: 85%;
+  max-width: 1600px;
+  margin: 0 auto;
+  min-width: 360px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* nblock 1*/
+.logo {
+  max-width: 450px;
+  min-width: 280px;
+  display: inline-block;
+  width: 29%;
+  vertical-align: bottom;
+}
+
+.menu-icon {
+  width: 35px;
+}
+label {
+  display: none;
+}
+.check {
+  display: none;
+}
+nav {
+  display: inline-block;
+  width: 68%;
+  vertical-align: bottom;
+}
+
+li > a {
+  color: black;
+}
+
+ul {
+  float: right;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 0px 10px 0px;
+}
+
+.col-1 a {
+  border-bottom: 2px solid rgb(37, 117, 225);
+  padding: 0 26px 10px 26px;
+}
+
+.col-2 a {
+  position: relative;
+  border-bottom: 2px solid rgb(77, 35, 172);
+  padding: 0 26px 10px 26px;
+}
+
+.col-3 a {
+  padding: 0 26px 10px 26px;
+  border-bottom: 2px solid rgb(20, 150, 22);
+}
+
+.col-4 a {
+  border-bottom: 2px solid rgb(200, 53, 29);
+  padding: 0 26px 10px 26px;
+}
+
+.col-5 a {
+  border-bottom: 2px solid rgb(235, 148, 30);
+  padding: 0 26px 10px 26px;
+}
+
+.col-1 a:hover {
+  color: rgb(37, 117, 225);
+}
+
+.col-2 a:hover {
+  color: rgb(77, 35, 172);
+}
+
+.col-3 a:hover {
+  color: rgb(20, 150, 22);
+}
+
+.col-4 a:hover {
+  color: rgb(200, 53, 29);
+}
+
+.col-5 a:hover {
+  color: rgb(235, 148, 30);
+}
+
+/*Block2*/
+.block2 {
+  margin-top: 15px;
+}
+
+.box1 {
+  margin-right: 3%;
+}
+.box1 h1{
+  font-weight: 300;
+}
+.box1,
+.box2 {
+  display: inline-block;
+  width: 48%;
+  vertical-align: bottom;
+}
+
+.pll {
+  margin-top: 7%;
+}
+.pl,
+.cell4 {
+  display: inline-block;
+  vertical-align: top;
+}
+.pl {
+  width: 53%;
+
+  margin-right: 5%;
+}
+.cell1 {
+  background-color: rgb(77, 35, 172);
+
+  position: relative;
+
+  padding-bottom: 115px;
+}
+.cell1 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cell1 span {
+  display: block;
+  padding-top: 10px;
+}
+.file {
+  float: left;
+  margin: 10px;
+}
+
+.cell2 {
+  background-color: rgb(20, 150, 3);
+  padding-bottom: 20px;
+  position: relative;
+}
+.cell2 img {
+  float: left;
+  margin: 10px;
+}
+.cell2 span {
+  display: block;
+  padding-top: 7px;
+}
+.cell2 a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.cell3 {
+  background-color: rgb(34, 67, 133);
+  padding-bottom: 20px;
+  margin-top: 13%;
+  position: relative;
+}
+.cell3 img {
+  float: left;
+  margin: 10px;
+}
+.cell3 span {
+  display: block;
+  padding-top: 10px;
+}
+.cell3 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cell4 {
+  background-color: rgb(254, 185, 15);
+  padding-bottom: 115px;
+  position: relative;
+}
+.cell4 span {
+  display: block;
+  padding-top: 10px;
+}
+.cell4 img {
+  float: left;
+  margin: 10px;
+}
+.cell4 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cell4 {
+  width: 40%;
+}
+.cell3 {
+  margin-top: 7%;
+}
+.ob-cell1,
+.ob-cell2 {
+  display: inline-block;
+  width: 40%;
+}
+.ob-cell1 {
+  background-color: rgb(9, 76, 194);
+  float: left;
+  position: relative;
+}
+.ob-cell1 img {
+  float: left;
+
+  margin: 10px;
+  width: 20px;
+}
+.ob-cell1 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.ob-cell1 span {
+  position: relative;
+  top: 10px;
+
+  border-bottom: 1px solid white;
+}
+.block2 a {
+  color: white;
+}
+
+.ob-cell2 {
+  float: right;
+}
+
+.icon {
+  position: absolute;
+  bottom: 15px;
+  right: 3%;
+}
+.ob-cell3 img {
+  border: 2px solid rgb(238, 238, 238);
+  width: 100%;
+  max-width: 768px;
+  margin-top: 27px;
+}
+.search {
+  position: relative;
+  width: 100%;
+}
+.clear {
+  clear: both;
+  margin-bottom: 50px;
+}
+.inputSearcch {
+  float: right;
+  width: 100%;
+  padding: 10px;
+  padding-right: 30px;
+}
+.searchsubmit {
+  background-image: url(../image/icons8.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0;
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+  position: absolute;
+
+  right: 2px;
+  top: 2px;
+}
+.Zag-text {
+  font-size: 18px;
+}
+.os-text {
+  font-size: 12px;
+}
+.os-text,
+.Zag-text {
+  color: white;
+}
+/*Block 3*/
+.block3 {
+  font-size: 14px;
+}
+.puckt1,
+.puckt2,
+.puckt3 {
+  margin: 30px 0;
+}
+.puckt1 {
+  border: 1px solid rgb(192, 193, 192);
+  border-left: 20px solid rgb(20, 150, 3);
+  padding-left: 2%;
+}
+.puckt2 {
+  border: 1px solid rgb(192, 193, 192);
+  border-left: 20px solid rgb(254, 185, 15);
+  padding-left: 2%;
+}
+.puckt3 {
+  border: 1px solid rgb(192, 193, 192);
+  border-left: 20px solid rgb(37, 113, 235);
+  padding-left: 2%;
+}
+.font-weight {
+  font-weight: 300;
+}
+.puckt1 h2 {
+  color: rgb(20, 150, 3);
+  font-size: 24px;
+}
+.puckt2 h2 {
+  color: rgb(254, 185, 15);
+  font-size: 24px;
+}
+.puckt3 h2 {
+  color: rgb(37, 113, 235);
+  font-size: 24px;
+}
+/* Block4*/
+.input1,
+.input2 {
+  display: inline-block;
+  padding: 17px 10px;
+  vertical-align: top;
+}
+.input1 {
+  width: 34%;
+}
+.input2 {
+  width: 60%;
+}
+.cvaz {
+  background-color: rgb(179, 28, 77);
+  padding: 16px 5px 17px 5px;
+  position: relative;
+}
+.cvaz span{
+  color: white;
+  display: block;
+}
+
+.cvaz img {
+  float: left;
+  padding: 0px 10px;
+}
+.form {
+  background-color: rgb(238, 238, 238);
+}
+.input1 > select,
+.input1 input {
+  display: block;
+  margin: 15px 0;
+  padding: 8px 0px 8px 10px;
+  width: 100%;
+}
+.input2 > textarea {
+  display: block;
+  margin: 15px 0;
+
+  width: 100%;
+}
+.input2 > input {
+  height: 100%;
+}
+.input2 button {
+  display: inline-block;
+  margin: 8px 0;
+  background-color: rgb(179, 28, 77);
+  color: white;
+  padding: 8px 27px;
+  vertical-align: bottom;
+  border: 0;
+}
+/* стрелки*/
+.l::after {
+  position: absolute;
+  content: "";
+  left: 40px;
+  border: 20px solid transparent;
+  border-left: 15px solid rgb(179, 28, 77);
+  border-top: 15px solid rgb(179, 28, 77);
+}
+
+.col-2 a::after {
+  position: absolute;
+  content: "";
+  bottom: -12px;
+  left: 50%;
+  border: 5px solid transparent;
+  border-top: 5px solid rgb(77, 35, 172);
+}
+
+footer {
+  background-color: rgb(238, 238, 238);
+  margin-top: 1%;
+  padding: 1%;
+}
+
+@media (max-width: 1065px) {
+  label {
+    display: block;
+  }
+  nav {
+    display: none;
+    
+  }
+  .check:checked ~ nav {
+    display: block;
+  }
+  ul {
+    float: none;
+  }
+  li {
+    display: block;
+    padding-top: 5px;
+  }
+}
+@media (max-width: 1000px) {
+  .box1,
+  .box2 {
+    display: block;
+    width: 95%;
+  }
+  .box2 {
+    margin-top: 7%;
+  }
+  .input1,
+  .input2 {
+    display: block;
+    padding: 17px 10px;
+  }
+  .input1 {
+    width: 95%;
+  }
+  .input2 {
+    width: 95%;
+  }
+  .clear{
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 600px) {
+  .pl,
+  .cell4 {
+    display: block;
+  }
+  .pl {
+    width: 100%;
+  }
+  .cell4 {
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 7%;
+  }
+  .cell1 {
+    padding-bottom: 30px;
+  }
+}
